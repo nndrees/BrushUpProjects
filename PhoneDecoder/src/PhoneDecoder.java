@@ -9,7 +9,7 @@ class PhoneDecoder {
 
 	    String phonestart = input.nextLine();  
 	    String phoneEnd = decode(phonestart);
-	    System.out.println("Your numbe is is: " + phoneEnd);  
+	    System.out.println("Your number is: " + phoneEnd);  
 	    input.close();
 	}
 	
